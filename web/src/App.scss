@@ -19,16 +19,24 @@ header{
         justify-content: center;
         align-items: center;
         gap: 20px;
-        img{
-            width: 40px;
-            height: 40px;
+        a{
             cursor: pointer;
-            border: 1px solid white;
-            border-radius: 100%;
-        }
-        p{
-            cursor: pointer;
-            color: white;
+            text-decoration: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            img{
+                width: 40px;
+                height: 40px;
+                cursor: pointer;
+                border: 1px solid white;
+                border-radius: 100%;
+            }
+            p{
+                cursor: pointer;
+                color: white;
+            }
         }
     }
     .links{
@@ -127,6 +135,7 @@ section{
             background-color: white;
         }
         p{
+            text-align: center;
             color: rgba(255, 255, 255, 0.8);
         }
     }

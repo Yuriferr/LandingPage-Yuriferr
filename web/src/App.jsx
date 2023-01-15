@@ -13,12 +13,18 @@ function App() {
     toast("🦄Obrigado por utilizar este site!!!");
   }
 
+  function Recharge(){
+
+  }
+
   return (
     <div className="App">
       <header>
         <div className='logo'>
-          <img src={Logo}/>
-          <p>Yuriferr</p>
+          <a href=''>
+            <img src={Logo}/>
+            <p onClick={Recharge}>Yuriferr</p>
+          </a>
         </div>
 
         <div className='links'>
