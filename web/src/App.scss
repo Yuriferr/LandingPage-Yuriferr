@@ -1,0 +1,134 @@
+$PageBlue: #0047AB;
+$PagePurple: #BD00FF;
+
+.App{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(130deg, $PageBlue , $PagePurple);
+}
+
+header{
+    width: 100%;
+    height: 60px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    .logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        img{
+            width: 40px;
+            height: 40px;
+            cursor: pointer;
+            border: 1px solid white;
+            border-radius: 100%;
+        }
+        p{
+            cursor: pointer;
+            color: white;
+        }
+    }
+    .links{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        a{
+            text-decoration: none;
+            color: white;
+            cursor: pointer;
+            &:hover{
+                border-bottom: 1px solid white;
+            }
+        }
+    }
+}
+
+section{
+    width: 100%;
+    height: calc(100vh - 60px);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    .container{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 10%;
+        .containerInfo{
+            width: 100%;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+            h1{
+                color: white;
+                font-size: 3rem;
+                white-space: nowrap;
+            }
+            h3{
+                color: white;
+                font-size: 1.5rem;
+                white-space: nowrap;
+            }
+            button{
+                width: fit-content;
+                background-color: $PageBlue;
+                background-image: linear-gradient(90deg, transparent 0%, rgba(0, 0, 0, 0.2) 100%);
+                color: white;
+                border: none;
+                border-radius: 12px;
+                padding: 10px 10%;
+                font-size: 1.2rem;
+                white-space: nowrap;
+                transition : background-color 0.7s ease 0s;
+                &:hover{
+                    background-color: $PagePurple;
+                    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.2) 0%, transparent 100%);
+                }
+            }
+        }
+        .containerImg{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            img{
+                position: absolute;
+                width: 100%;
+                height: auto;
+                object-fit: cover;
+                transform: scaleX(-1);
+            }
+        }
+    }
+
+    .info{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex: 2;
+        padding: 50px 0;
+        gap: 20px;
+        div{
+            width: 30%;
+            height: 1px;
+            background-color: white;
+        }
+        p{
+            color: rgba(255, 255, 255, 0.8);
+        }
+    }
+}
+
