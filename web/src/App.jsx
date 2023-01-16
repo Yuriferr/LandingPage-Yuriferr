@@ -24,9 +24,9 @@ function App() {
         </div>
 
         <div className='links'>
-          <a href='mailto:yurifernandespreto@gmail.com'>Email</a>
-          <a target='_blanck' href='https://www.linkedin.com/in/yuriferr'>Linkedin</a>
-          <a target='_blanck' href='https://github.com/Yuriferr'>GitHub</a>
+          <a href='mailto:yurifernandespreto@gmail.com'><p>Email</p></a>
+          <a target='_blanck' href='https://www.linkedin.com/in/yuriferr'><p>Linkedin</p></a>
+          <a target='_blanck' href='https://github.com/Yuriferr'><p>GitHub</p></a>
         </div>
       </header>
 
