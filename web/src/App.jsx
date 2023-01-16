@@ -19,7 +19,7 @@ function App() {
         <div className='logo'>
           <a href=''>
             <img src={Logo}/>
-            <p onClick={Recharge}>Yuriferr</p>
+            <p>Yuriferr</p>
           </a>
         </div>
 
