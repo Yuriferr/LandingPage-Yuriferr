@@ -13,10 +13,6 @@ function App() {
     toast("🦄Obrigado por utilizar este site!!!");
   }
 
-  function Recharge(){
-
-  }
-
   return (
     <div className="App">
       <header>
